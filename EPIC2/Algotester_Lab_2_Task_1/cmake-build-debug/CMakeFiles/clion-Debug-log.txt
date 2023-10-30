@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\LPNUAI1\EPIC2\Algotester_Lab_2_Task_1 Select CMakeLists.txt
