@@ -1,3 +1,0 @@
-C:/LPNUAI1/EPIC2/Algotester_Lab_1_Task_1/cmake-build-debug/CMakeFiles/Algotester_Lab_1_Task_1.dir
-C:/LPNUAI1/EPIC2/Algotester_Lab_1_Task_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/LPNUAI1/EPIC2/Algotester_Lab_1_Task_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
