@@ -26,7 +26,7 @@ int main() {
             cout << "ERROR" << endl;
             return 0;
         }
-        h[i] -= d[i]; // h[i] = h[i] - d[i]
+        h[i] -= d[i];
         if (i == h_max_i) {
             for (int j = 0; j < 4; ++j) {
                 if (h[j] >= h_max) {

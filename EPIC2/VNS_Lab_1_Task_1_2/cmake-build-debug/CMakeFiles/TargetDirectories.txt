@@ -1,0 +1,3 @@
+D:/LPNU/EPIC2/VNS_Lab_1_Task_1_2/cmake-build-debug/CMakeFiles/VNS_Lab_1_Task_1_2.dir
+D:/LPNU/EPIC2/VNS_Lab_1_Task_1_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/LPNU/EPIC2/VNS_Lab_1_Task_1_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
