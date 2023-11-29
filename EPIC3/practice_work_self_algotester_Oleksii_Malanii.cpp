@@ -21,5 +21,5 @@ string res() {
 int main() {
     string result = res();
     cout << result << endl;
-    return 0;
+    exit(0);
 }
