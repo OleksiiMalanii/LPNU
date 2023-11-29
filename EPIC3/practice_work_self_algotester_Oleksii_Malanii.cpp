@@ -1,7 +1,11 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-string res(long long a[]) {
+string res() {
+    long long a[5];
+    for (int i = 0; i < 5; ++i) {
+        cin >> a[i];
+    }
     for (int i = 0; i < 5; ++i) {
         if (a[i] <= 0) {
             return "ERROR";
@@ -15,10 +19,7 @@ string res(long long a[]) {
     return "WIN";
 }
 int main() {
-    long long a[5];
-    for (int i = 0; i < 5; ++i) {
-        cin >> a[i];
-    }
-    cout << res(a) << endl;
+    string result = res();
+    cout << result << endl;
     return 0;
 }
