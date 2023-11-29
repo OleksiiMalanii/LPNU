@@ -7,12 +7,10 @@ string res(long long a[]) {
             return "ERROR";
         }
     }
-    long long MaxSide = LLONG_MAX;
-    for (int i = 0; i < 5; ++i) {
-        if (a[i] > MaxSide) {
+    for (int i = 1; i < 5; ++i) {
+        if (a[i] > a[i-1]) {
             return "LOSS";
         }
-        MaxSide = min(MaxSide, a[i]);
     }
     return "WIN";
 }
