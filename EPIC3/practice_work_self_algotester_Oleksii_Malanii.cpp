@@ -1,25 +1,26 @@
 #include <iostream>
-#include <limits>
 using namespace std;
-string res() {
-    long long a[5];
-    for (int i = 0; i < 5; ++i) {
-        cin >> a[i];
+int main () {
+    long long cubes[5];
+    for (int i = 0; i < 5; i++)
+        cin >> cubes[i];
+    if (cubes[0] <= 0) {
+        cout << "ERROR";
+        exit(0);
     }
-    for (int i = 0; i < 5; ++i) {
-        if (a[i] <= 0) {
-            return "ERROR";
+    for (int i = 1; i < 5; i++)
+    {
+        if (cubes[i] <= 0)
+        {
+            cout << "ERROR";
+            exit(0);
+        }
+        if (cubes[i] > cubes[i-1])
+        {
+            cout << "LOSS";
+            exit(0);
         }
     }
-    for (int i = 1; i < 5; ++i) {
-        if (a[i] > a[i-1]) {
-            return "LOSS";
-        }
-    }
-    return "WIN";
-}
-int main() {
-    string result = res();
-    cout << result << endl;
-    exit(0);
+    cout << "WIN";
+    return 0;
 }
